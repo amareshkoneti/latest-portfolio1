@@ -1,0 +1,19 @@
+[images]
+  remote_images = ["https://source.unsplash.com/.*", "https://images.unsplash.com/.*", "https://ext.same-assets.com/.*", "https://ugc.same-assets.com/.*"]
+
+[build]
+  # Command to install dependencies
+  command = "bun install && bun run build"
+
+  # Directory to publish (relative to root)
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Redirect all requests to index.html for SPA
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
