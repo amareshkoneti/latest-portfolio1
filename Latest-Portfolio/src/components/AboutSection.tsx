@@ -99,12 +99,10 @@ const AboutSection = () => {
             </div>
             <h3 className="text-lg font-bold mb-2" style={{ color: '#2563eb' }}>Experience</h3>
             <ol className="list-decimal list-inside space-y-2 text-gray-700">
-              <li className="text-black font-bold"><span className="font-semibold text-[#22223b]">AIML Intern at HCL Technologies</span></li>
-              <li className="text-black font-bold"><span className="font-semibold text-[#22223b]">Project Intern at Civil Supplies Department, Govt. of Andhra Pradesh</span></li>
-              <li className="text-black font-bold"><span className="font-semibold text-[#22223b]">AIML Intern at Nigha Tech</span></li>
-              <li className="text-black font-bold"><span className="font-semibold text-[#22223b]">Project Intern at CDAC Hyderabad</span></li>
+              <li className="text-black font-bold"><span className="font-semibold text-[#22223b]">AIML Intern at HCL Technologie</span></li>
+              <li className="text-black font-bold"><span className="font-semibold text-[#22223b]">AIML Intern at Flipnow Solutions Pvt limited</span></li>
               <li className="text-black font-bold"><span className="font-semibold text-[#22223b]">IEEE Paper Author</span></li>
-              <li className="text-black font-bold"><span className="font-semibold text-[#22223b]">Patent Holder</span></li>
+              
             </ol>
           </div>
 
@@ -116,8 +114,8 @@ const AboutSection = () => {
             </div>
             <h3 className="text-lg font-bold mb-2" style={{ color: '#2563eb' }}>Education</h3>
             <ol className="list-decimal list-inside space-y-2 text-gray-700">
-              <li className="text-black font-bold"><span className="font-semibold text-[#22223b]">B.Tech in AI & ML, NRI Institute of Technology</span></li>
-              <li className="text-black font-bold"><span className="font-semibold text-[#22223b]">Intermediate in Sri Chaitanya Junior College</span></li>
+              <li className="text-black font-bold"><span className="font-semibold text-[#22223b]">B.Tech in AI & ML, Prasad V Potluri Siddardha Institute of Technology</span></li>
+              <li className="text-black font-bold"><span className="font-semibold text-[#22223b]">Intermediate in KBN College</span></li>
             </ol>
           </div>
 
@@ -155,3 +153,4 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
