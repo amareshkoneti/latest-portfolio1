@@ -41,6 +41,26 @@ const ProjectsSection = () => {
     },
     {
       id: 3,
+      title: 'Coding Institute Management System',
+      description: 'A freelance full-stack MERN project enabling secure login, course management, and certificate verification via public URLs, ensuring seamless administration and authenticity of student achievements.',
+      image: 'coding-institute.png',
+      tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Supabase', 'Particle.js'],
+      demoLink: 'https://sky-coding-institute.vercel.app',
+      codeLink: 'https://github.com/amareshkoneti/sky-coding-institute.git',
+    },
+
+    {
+      id: 4,
+      title: 'Learnova – AI-Powered Interactive Learning Platform',
+      description: 'An intelligent learning platform with topic roadmaps, quiz-based subtopic unlocking, and an AI chatbot for real-time doubt clarification, enhancing personalized and engaging learning experiences.',
+      image: 'learnova.png',
+      tags: ['Flask', 'React.js', 'MongoDB', 'Gemini API', 'IBM Granite', 'AI'],
+      demoLink: '',
+      codeLink: 'https://github.com/amareshkoneti/Learnova.git',
+    },
+
+    {
+      id: 4,
       title: 'Water Level Monitoring System',
       description: 'This project presents an intelligent real-time water level monitoring system that leverages piezometer sensor data for accurate measurement of subsurface and groundwater levels. The system continuously collects and transmits readings to a cloud-based platform, enabling authorities to remotely monitor water fluctuations in reservoirs, canals, and aquifers. This assists in flood risk assessment, irrigation planning, and groundwater management.',
       image: 'DWLR.png',
@@ -48,15 +68,7 @@ const ProjectsSection = () => {
       demoLink: 'https://demo.com/waterlevel',
       codeLink: 'https://github.com/Sailajayadav/AutomatedDataMonitoring-and-AlertSystem-for-DWLRs.git',
     },
-    {
-      id: 4,
-      title: 'Real-Time Mandal-Level Stock Point Dashboard with SQL Server Integration, Editable Interface, and PDF Export',
-      description: 'Developed an interactive and editable real-time dashboard for mandal-level stock point management, integrated with SQL Server to fetch and display live inventory details. The system supports dynamic updates, data editing, and provides PDF export functionality for efficient reporting and decision-making.',
-      image: 'MLSP.png',
-      tags: ['Python', 'MS SQL Server', 'Data Visualization', 'PDF Export','Editable Dashboard'],
-      demoLink: 'https://drive.google.com/file/d/1xxGhugqP9v1iBcg6tnPYdBDcRG2aTNIX/view?usp=sharing',
-      codeLink: 'https://github.com/Sailajayadav/edited-dashboard.git',
-    },
+    
     {
       id: 5,
       title: 'InjuryShield',
@@ -96,7 +108,7 @@ const ProjectsSection = () => {
       codeLink: 'https://github.com/Sailajayadav/Yiutube-Sentimental-Analysis.git',
     },
     {
-      id: 9,
+      id:9,
       title: 'Advertisement Sales Prediction from an existing Customer using Logistic Regression',
       description: 'A project that predicts advertisement sales from existing customers using Logistic Regression to classify potential sales outcomes and support targeted marketing strategies.',
       image: 'proj_4.jpg',
@@ -115,15 +127,7 @@ const ProjectsSection = () => {
       codeLink: 'https://github.com/Sailajayadav/Interactive-Chatbot-Powered-by-Dialogflow.git',
     },
 
-    {
-      id: 11,
-      title: 'CDAC Hyderabad – Work-Based Learning (WBL) interactive Dashboard',
-      description: 'Built a real-time, editable CDAC WBL dashboard integrated with SSMS (SQL Server), including PDF export for reporting. ',
-      image: 'wbl.png',   
-      tags: ['Python', 'MS SQL Server', 'Data Visualization', 'PDF Export','Editable Dashboard'],
-      demoLink: '',
-      codeLink: 'https://github.com/Sailajayadav/cda-hyderabd-wbl-interns-live-dashboard.git',
-    },
+
 
 
   ];
